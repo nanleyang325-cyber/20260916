@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.10",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/f2e7f4b1475a5bbdb96d5e871a3b638bc12b3725/shop-material-helper/releases/shop-material-helper-1.1.10.zip",
-  "bytes": 1754233,
-  "sha256": "ccca37c58f2d45a238afd8b635896b3c034380bc40e2ac80d397574f28c5d9d7",
-  "publishedAt": "2026-11-07T08:35:52.853Z",
+  "version": "1.1.11",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/5bf5cc24ec1b2e82abcb80b2bb90d4a6c0fac4b7/shop-material-helper/releases/shop-material-helper-1.1.11.zip",
+  "bytes": 1759687,
+  "sha256": "2cc7de9c09db640d2a046d15a36af6695c0f996bdddd5bcc2af8a77494886515",
+  "publishedAt": "2026-11-07T09:34:51.836Z",
   "notes": [
-    "移除先演练，开始清理会保存命中清单后逐条实际删除、回查并记录任务日志。",
-    "关联图片仅在平台确认无引用后清理；共用或无法确认的保留并记录原因。",
-    "清理复用同一个工作标签页，在素材中心与图片空间切换，不重复新开页面。",
-    "通过156项隔离测试、浏览器模拟流程及真实共用图片只读保护核验；未批量删除真实素材。",
-    "覆盖原目录并重新加载，保留配置、任务和素材；请勿卸载原插件。"
+    "新搜推任务按购买问题区分摆放、取物、分层和归位，完整展示商品；旋转置物架新增专属方案及标题正文。",
+    "依据已核对的天猫精选规则优化，不以换背景代替增量信息；生成效果和精选结果仍需实际核验。",
+    "编辑器等待目标标题与正文连续精确读回，失败说明不符字段、长度和差异位置；减少重复查询日志。",
+    "通过206项自动化测试和本机真实编辑器未发布填表验证；另一台Chrome现场恢复待验证。",
+    "覆盖原目录并重新加载，保留原配置、任务、素材与生成编号；已有任务保留原文案和提示词，请继续旧任务，不要卸载重装。"
   ]
 }
