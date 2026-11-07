@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "shop-material-helper-independent",
+  "version": "1.1.6",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/32eb061b2c7757547b670fe9d2447f92eaf31941/shop-material-helper/releases/shop-material-helper-1.1.6.zip",
+  "bytes": 1745772,
+  "sha256": "4114376d286356a9b3daa6a4732bccdf06c6d92ccb1a2a8d18eef8a50c80eb96",
+  "publishedAt": "2026-11-07T14:14:20+08:00",
+  "notes": [
+    "插件内提示新版，点击下载前核验安装包大小和SHA256。",
+    "遇到未完成任务时弹窗确认继续，沿用原任务编号、素材和进度。",
+    "原任务仍在运行时仅查看进度，不重启或重复提交。",
+    "升级需覆盖原目录并重新加载，保留原浏览器空间和扩展ID；不要卸载原插件。"
+  ]
+}
