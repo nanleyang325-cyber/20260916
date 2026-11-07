@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.6",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/32eb061b2c7757547b670fe9d2447f92eaf31941/shop-material-helper/releases/shop-material-helper-1.1.6.zip",
-  "bytes": 1745772,
-  "sha256": "4114376d286356a9b3daa6a4732bccdf06c6d92ccb1a2a8d18eef8a50c80eb96",
-  "publishedAt": "2026-11-07T14:14:20+08:00",
+  "version": "1.1.7",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/b83ed528166b45fa89ed615c0842c71424f12ae5/shop-material-helper/releases/shop-material-helper-1.1.7.zip",
+  "bytes": 1745717,
+  "sha256": "267e13916a3d66cbe9820667e80d43d65a85a11bf5f65316c7f1880c47b12705",
+  "publishedAt": "2026-11-07T06:50:04.007Z",
   "notes": [
-    "插件内提示新版，点击下载前核验安装包大小和SHA256。",
-    "遇到未完成任务时弹窗确认继续，沿用原任务编号、素材和进度。",
-    "原任务仍在运行时仅查看进度，不重启或重复提交。",
-    "升级需覆盖原目录并重新加载，保留原浏览器空间和扩展ID；不要卸载原插件。"
+    "修复快速并发开始任务产生重复确认弹窗的问题。",
+    "继续旧任务保留原编号与已有素材，不自动升级旧视频清晰度或重新生成。",
+    "后台拒绝旧页面传入的自动视频重生成参数，结果未知的已提交步骤仍先回查。",
+    "覆盖原目录并重新加载可保留原配置和数据，请勿卸载原扩展。"
   ]
 }
