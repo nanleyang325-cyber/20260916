@@ -1,17 +1,16 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.18",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/98995486c03e976e395de5f5c554d450f6f5415a/shop-material-helper/releases/shop-material-helper-1.1.18.zip",
-  "sha256": "b93d3146c06df1e49772e27b68493c60eb6ee63c9a789ae8c0a338c7e12017ab",
-  "bytes": 1790289,
-  "publishedAt": "2026-11-07T12:14:42.837Z",
+  "version": "1.1.20",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/f8de85368720e61404eb6b9025676736ec1abf47/shop-material-helper/releases/shop-material-helper-1.1.20.zip",
+  "sha256": "da1eb38a60171f13c42dc071523d57e1e2b176754544b12730f3d0e996cb7669",
+  "bytes": 1792316,
+  "publishedAt": "2026-11-07T13:17:51.264Z",
   "notes": [
-    "新下载入口：https://crm.zn-sn.com/shop-material-helper/ 。旧版如无法从GitHub下载，请从此入口下载迁移包。",
-    "检查与下载改用自有阿里云香港服务器，不再依赖GitHub下载源。",
-    "网络中断自动重试一次，保留安装包大小和SHA256校验。",
-    "保留下架商品跳过与默认光合自动声明功能。",
-    "旧版需从新下载页取得本迁移包；覆盖原目录并重新加载，不要卸载。",
-    "安装本版后，版本与更新页首次允许新更新源访问；之后可直接检查和下载新版。"
+    "如旧版无法从 GitHub 下载，可直接使用自有服务器下载页 https://crm.zn-sn.com/shop-material-helper/ 。",
+    "搜推图文备用模型增加至16个选项，可从已接入的图片模型中选择。",
+    "主模型为 gpt-image-2.6 时，可在 API 设置选一个备用模型，启动新批次时确认。",
+    "每张已确认失败的原图最多尝试一次备用生成，沿用原素材编号和比例。",
+    "等当前任务结束后覆盖原插件目录并重新加载，保留任务、素材及API设置。"
   ]
 }
