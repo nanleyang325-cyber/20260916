@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.7",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/b83ed528166b45fa89ed615c0842c71424f12ae5/shop-material-helper/releases/shop-material-helper-1.1.7.zip",
-  "bytes": 1745717,
-  "sha256": "267e13916a3d66cbe9820667e80d43d65a85a11bf5f65316c7f1880c47b12705",
-  "publishedAt": "2026-11-07T06:50:04.007Z",
+  "version": "1.1.8",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/17c1023f7e474914ac1e9e536a4a2d45a6ffc270/shop-material-helper/releases/shop-material-helper-1.1.8.zip",
+  "bytes": 1746701,
+  "sha256": "a8a5c306005270942f634825eafc6c9bfad68c7b5aa8b98172bb1ffb15f90a45",
+  "publishedAt": "2026-11-07T07:35:04.844Z",
   "notes": [
-    "修复快速并发开始任务产生重复确认弹窗的问题。",
-    "继续旧任务保留原编号与已有素材，不自动升级旧视频清晰度或重新生成。",
-    "后台拒绝旧页面传入的自动视频重生成参数，结果未知的已提交步骤仍先回查。",
-    "覆盖原目录并重新加载可保留原配置和数据，请勿卸载原扩展。"
+    "修复曝光与发布天数误报无效，准确保留商品范围、素材类型及精选选项。",
+    "图片结果等待下载授权或下载失败时显示具体原因，自检也会提示。",
+    "运行区只显示当前步骤与处理事项，取消秒数、回执滚动及无变化的重复刷新。",
+    "覆盖原加载目录并重新加载，保留原配置、任务和素材；请勿卸载原扩展。"
   ]
 }
