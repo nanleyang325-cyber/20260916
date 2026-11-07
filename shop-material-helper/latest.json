@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.17",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/758c911c4732934348b8ae4a1c2f326ba48864ff/shop-material-helper/releases/shop-material-helper-1.1.17.zip",
-  "bytes": 1789796,
-  "sha256": "fd18819ef014c6721bba70ccc2b1e75bea58513317d450bf3f7d42b7c9a4923f",
-  "publishedAt": "2026-11-07T11:45:33Z",
+  "version": "1.1.18",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/98995486c03e976e395de5f5c554d450f6f5415a/shop-material-helper/releases/shop-material-helper-1.1.18.zip",
+  "sha256": "b93d3146c06df1e49772e27b68493c60eb6ee63c9a789ae8c0a338c7e12017ab",
+  "bytes": 1790289,
+  "publishedAt": "2026-11-07T12:14:42.837Z",
   "notes": [
-    "官方明确下架的商品自动跳过，日志逐商品记录“商品ID 已下架，已跳过，未生成”；不因空框为0而消失。",
-    "新增生成前及恢复未提交的请求前核对在售状态。已提交的原编号与素材保留，不重投；未找到、状态不明确和槽已满分别说明，不混写为下架。",
-    "覆盖白底、场景、主图视频、搜推图文/视频及光合生成，场景并行处理会跳过下架商品并继续其他符合条件的商品。",
-    "包含1.1.16：未保存过声明设置的电脑，默认自动选择“内容无需标注”并继续光合发布，无需逐台设置；保留明确手动选择。",
-    "266项自动化测试通过，浏览器隔离验证下架商品0次生成并继续下一个在售商品；本机升级前后原任务、素材数据库、API配置及扩展ID核验一致。",
-    "等现有任务结束后覆盖原目录并重新加载，不要卸载。"
+    "新下载入口：https://crm.zn-sn.com/shop-material-helper/ 。旧版如无法从GitHub下载，请从此入口下载迁移包。",
+    "检查与下载改用自有阿里云香港服务器，不再依赖GitHub下载源。",
+    "网络中断自动重试一次，保留安装包大小和SHA256校验。",
+    "保留下架商品跳过与默认光合自动声明功能。",
+    "旧版需从新下载页取得本迁移包；覆盖原目录并重新加载，不要卸载。",
+    "安装本版后，版本与更新页首次允许新更新源访问；之后可直接检查和下载新版。"
   ]
 }
