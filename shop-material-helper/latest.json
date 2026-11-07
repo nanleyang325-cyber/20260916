@@ -1,15 +1,16 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.9",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/3587f529ad6fb6cc6e361dcfe3b8ea3e7d840ea8/shop-material-helper/releases/shop-material-helper-1.1.9.zip",
-  "bytes": 1747178,
-  "sha256": "ce48319d7542e964b869fccb5d7dad0a2ea74302d89258536fc7c9e097fa9722",
-  "publishedAt": "2026-11-07T07:50:23.197Z",
+  "version": "1.1.10",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/f2e7f4b1475a5bbdb96d5e871a3b638bc12b3725/shop-material-helper/releases/shop-material-helper-1.1.10.zip",
+  "bytes": 1754233,
+  "sha256": "ccca37c58f2d45a238afd8b635896b3c034380bc40e2ac80d397574f28c5d9d7",
+  "publishedAt": "2026-11-07T08:35:52.853Z",
   "notes": [
-    "修复指定商品清理误走普通商品搜索入口，改为查询官方素材列表。",
-    "按素材ID逐条演练，保留同商品多条素材，不受旧发布记录或生图篇数影响。",
-    "清理不触发素材发布同步；演练成功显示命中条数，失败显示具体原因。",
-    "覆盖原目录并重新加载，保留原配置、任务和素材；请勿卸载原扩展。"
+    "移除先演练，开始清理会保存命中清单后逐条实际删除、回查并记录任务日志。",
+    "关联图片仅在平台确认无引用后清理；共用或无法确认的保留并记录原因。",
+    "清理复用同一个工作标签页，在素材中心与图片空间切换，不重复新开页面。",
+    "通过156项隔离测试、浏览器模拟流程及真实共用图片只读保护核验；未批量删除真实素材。",
+    "覆盖原目录并重新加载，保留配置、任务和素材；请勿卸载原插件。"
   ]
 }
