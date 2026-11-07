@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "product": "shop-material-helper-independent",
-  "version": "1.1.8",
-  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/17c1023f7e474914ac1e9e536a4a2d45a6ffc270/shop-material-helper/releases/shop-material-helper-1.1.8.zip",
-  "bytes": 1746701,
-  "sha256": "a8a5c306005270942f634825eafc6c9bfad68c7b5aa8b98172bb1ffb15f90a45",
-  "publishedAt": "2026-11-07T07:35:04.844Z",
+  "version": "1.1.9",
+  "url": "https://raw.githubusercontent.com/nanleyang325-cyber/20260916/3587f529ad6fb6cc6e361dcfe3b8ea3e7d840ea8/shop-material-helper/releases/shop-material-helper-1.1.9.zip",
+  "bytes": 1747178,
+  "sha256": "ce48319d7542e964b869fccb5d7dad0a2ea74302d89258536fc7c9e097fa9722",
+  "publishedAt": "2026-11-07T07:50:23.197Z",
   "notes": [
-    "修复曝光与发布天数误报无效，准确保留商品范围、素材类型及精选选项。",
-    "图片结果等待下载授权或下载失败时显示具体原因，自检也会提示。",
-    "运行区只显示当前步骤与处理事项，取消秒数、回执滚动及无变化的重复刷新。",
-    "覆盖原加载目录并重新加载，保留原配置、任务和素材；请勿卸载原扩展。"
+    "修复指定商品清理误走普通商品搜索入口，改为查询官方素材列表。",
+    "按素材ID逐条演练，保留同商品多条素材，不受旧发布记录或生图篇数影响。",
+    "清理不触发素材发布同步；演练成功显示命中条数，失败显示具体原因。",
+    "覆盖原目录并重新加载，保留原配置、任务和素材；请勿卸载原扩展。"
   ]
 }
